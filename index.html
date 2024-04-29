@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="mykoLogo2.jpg" type="image/x-icon"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <style>
+    body {
+      background-color: #920BF6;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    h6 {
+      color: white;
+      font-size: x-large;
+    }
+
+    a:link {
+      color: white;
+    }
+
+    .container {
+    position: relative;
+    font-family: Arial;
+    }
+
+    .text-block {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color: #920BF6;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+  </style>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="mykoLogo2.jpg" alt="" height="50px" width="50px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#works">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacts">Contact</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link" href="#">about</a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+    
+    
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="MykoDake.PNG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="SimpsonMyko.PNG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Chariz.PNG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="icebear.PNG" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Myko_Portrait.PNG" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    
+    <h1 id="works" class="text-center">Myko Works</h1>
+    
+    <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  
+        <div class="embed-responsive embed-responsive-1by1">
+  <iframe class="embed-responsive-item" src="https://my.matterport.com/show/?m=MY7hxS6bsPy"></iframe>
+</div>
+        
+  <div class="card-body">
+    <h5 class="card-title">LPU Manila Library</h5>
+    <p class="card-text">Step into Lyceum of the Philippines University's 3D library—an immersive digital space revolutionizing learning. Explore virtual shelves stocked with diverse resources and embark on interactive educational journeys. Experience the future of academia, where knowledge meets innovation.</p>
+    <div class="container mt-3">
+  <h3>Lyceum of the Philippines University</h3>
+  <p>Click for more </p>
+      
+  
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    Open
+  </button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Lyceum of the Philippines University</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <img src="lpu.jpg" class="card-img-top" alt="...">
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+<div class="col">
+  <img src="Myko_Portrait.PNG" alt="Nature" style="width:100%;">
+      <div class="text-block">
+        <h4>Myko Portait</h4>
+        <p>Self-portrait plate</p>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+    <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img src="Myko_Portrait.PNG" alt="Nature" style="width:100%;">
+      <div class="text-block">
+      </div>
+    </div>
+    <div class="col">
+      <img src="MykoDake.PNG" alt="Nature" style="width:100%;">
+      <div class="text-block">
+    </div>
+    </div>
+    <div class="col">
+      <img src="icebear.PNG" alt="Nature" style="width:100%;">
+      <div class="text-block">
+    </div>
+  </div>
+</div>
+    <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img src="Duyan.PNG" alt="Nature" style="width:100%;">
+      <div class="text-block">
+    </div>
+    </div>
+    <div class="col">
+      <img src="Chariz.PNG" alt="Nature" style="width:100%;">
+      <div class="text-block">
+    </div>
+    </div>
+    <div class="col">
+      <img src="SimpsonMyko.PNG" alt="Nature" style="width:100%;">
+      <div class="text-block">
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img src="Chocnut PopArt Poster.PNG" alt="Nature" style="width:100%;">
+      <div class="text-block">
+    </div>
+    </div>
+    <div class="col">
+      <img src="Digital Painting remake from pinterest.png" alt="Nature" style="width:100%;">
+      <div class="text-block">
+    </div>
+    </div>
+    <div class="col">
+      <img src="Wolverine render.PNG" alt="Nature" style="width:100%;">
+      <div class="text-block">
+    </div>
+    </div>
+  </div>
+  <h1 id="contacts" class="text-center">Contacts</h1> 
+    <div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <h6>Subscribe to Myko Works</h6>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+    </div>
+    <div class="col">
+      <div class="google-map">
+        <iframe src="https://www.google.com/maps/d/u/0/viewer?mid=1Z96kvp3BgwWjfbV8ZVMw25hERXQ&hl=en&ll=14.590625963286136%2C120.97778145172882&z=18" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+    </div>
+  </div>
+</div>
+    
+    
+<footer class="container-fluid text-center">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <a href="https://www.facebook.com/mykoela" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/btchelaaa" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/sining.ni.ela?igsh=b3EzZGN5ZWllNnJm&utm_source=qr" class="fa fa-instagram"></a>
+  <a href="https://www.youtube.com/@mikaelashley_" class="fa fa-youtube"></a>
+  
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05); color: white;">
+    © 2020 Copyright:
+    <a class="text-body" href="https://mdbootstrap.com/" style="color: white;">MDBootstrap.com</a>
+  </div>
+  </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
